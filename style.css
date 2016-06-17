@@ -1,0 +1,512 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,700,400);
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #00b4c2;
+}
+
+
+#index{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	overflow: hidden;
+
+}
+
+#bg{
+	background-image: url(img/bg_b.jpg);
+	background-size: cover;
+	background-position: center;
+	transform: scale(1.1);	
+	-webkit-transform: scale(1.1);	
+	width: 100%;
+	height: 100%;
+}
+
+
+#logo{
+	width: 100%;
+	height: 157px;
+	background-image: url(img/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	position: absolute;
+	top: 50%;
+	margin-top: -78px;
+
+}
+
+#dog{
+	background-image: url(img/dog.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: 35%;
+	width: 960px;
+	height: 671px;
+	position: absolute;
+	left: 50%;
+	margin-left: -400px;
+	top: 170px;
+}
+
+
+#sticky-anchor{
+	//border: 3px solid red;
+	position: absolute;	
+	width: 100px;
+	height: 30px;
+	margin-top: -100px;
+}
+
+#name{
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	margin-top: -60px;
+	display: block;
+}
+
+#name.sticky{
+	margin-top: 0px !important;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	padding: 40px 0 40px 0;
+}
+
+#name p {
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#name a:hover{
+	border: 1px solid #00b4c2;
+	border-radius: 10px;
+	padding: 7px 20px;
+
+}
+
+#scrollDown{
+	width: 80%;
+	min-height: 30px;
+	margin: auto;
+	padding: 40px;
+}
+
+#scrollD{
+	width: 100%;
+	height: 50px;
+	margin: auto;
+}
+
+
+.arrow{
+	font-weight: lighter;
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+	color: white;
+	text-align: center;
+	font-size: .6em;
+}
+
+#container{
+	position: relative;
+	max-width: 100%;
+	min-height: 3100px;
+	background-color: white;
+	padding: 4em;
+	z-index: 2;
+}
+
+
+.title{
+	color: gray;
+	text-align: center;
+	font-size: 2em;
+	font-weight: lighter;
+	margin-top: 200px;
+}
+
+.title2{
+	margin-top: -50px;
+}
+
+.text1{
+	width: 70%;
+	margin: 2.5em auto 2.5em auto;
+	height: auto;
+	line-height: 2em;
+	text-align: center;
+	font-size: .9em;	
+}
+
+.text1 span{
+
+	font-size: 1.2em;
+	color: #00b4c2;
+	line-height: 2em;
+}
+
+.text1 .textSub{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: -25px;
+}
+
+.text2{
+	color: #00b4c2;
+}
+
+.text2 strong{
+	font-size: 1.2em;
+}
+
+hr{
+	width: 65%;
+	margin: 3em auto 3em auto;
+}
+
+
+#product{
+	width: 500px;
+	height: 500px;
+	background-image: url(img/product.jpg);
+	background-size: contain;
+	background-attachment: fixed;
+	background-position: center 0px;
+	background-repeat: repeat-y;
+	border-radius: 50%;
+	position: relative;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: 100px;
+	margin-bottom: 200px;
+
+}
+
+.black_bg{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.promo{
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 100;
+}
+
+.promo span{
+	font-size: .7em;
+
+}
+
+.promo strong{
+	display: block;
+	margin-top: 5px;
+}
+
+.promo .buyIt{
+	display: block;
+	margin-top: 15px;
+	border: 1px solid #00b4c2;
+	padding: 4px 10px;
+	font-size: .7em;
+	border-radius: 3px;
+	transition: background-color 0.3s ease-in-out;
+	transition: color 0.5s ease-in-out;
+}
+
+.promo .buyIt:hover{
+	background-color: #00b4c2;
+	color: white;
+	border: 1px solid #00b4c2;
+}
+
+.promo .buyIt:active{
+	transform: translate(2px, 3px);
+}
+
+#earProblem {
+	width: 100%;
+	height: 240px;
+	margin: auto;
+	text-align: center;
+}
+
+#earProblem figure{
+	display: inline-block;
+}
+
+#earProblem .ear1, #earProblem .ear2, #earProblem .ear3, #earProblem .ear4, 
+#howToUse .use1, #howToUse .use2, #howToUse .use3{
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: contain;
+	width: 20%;
+	height: 100%;
+	transition: all 0.3s ease-in-out;
+	margin-left: 1%;
+}
+
+#earProblem .ear1{
+	background-image: url(img/ear1.png);
+}
+
+#earProblem .ear1:hover{
+	background-image: url(img/ear1.gif);
+	transform: scale(1.1);	
+}
+
+#earProblem .ear2{
+	background-image: url(img/ear2.png);
+}
+
+#earProblem .ear2:hover{
+	background-image: url(img/ear2.gif);
+	transform: scale(1.1);	
+}
+
+#earProblem .ear3{
+	background-image: url(img/ear3.png);
+}
+
+#earProblem .ear3:hover{
+	background-image: url(img/ear3.gif);
+	transform: scale(1.1);	
+}
+
+#earProblem .ear4{
+	background-image: url(img/ear4.png);
+}
+
+#earProblem .ear4:hover{
+	background-image: url(img/ear4.gif);
+	transform: scale(1.1);	
+}
+
+
+#good{
+	background-image: url(img/original.jpg);
+	background-position: center;
+	margin: auto;
+	margin-bottom: 100px;
+	width: 100%;
+	height: 600px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+#howToUse{
+	width: 100%;
+	height: 300px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+
+}
+
+#howToUse figure{
+	display: inline-block;
+
+}
+
+#howToUse figcaption{
+	width: 25%;
+	font-size: 0.9em;
+	line-height: 1.8em;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	
+}
+
+#howToUse figcaption p{
+	display: block;
+	position: absolute;
+	bottom: 0;
+}
+
+#howToUse .use1, #howToUse .use2, #howToUse .use3{
+	background-position: top center;
+	width: 25%;
+}
+
+#howToUse .use1{
+	background-image: url(img/use1.jpg);
+}
+
+#howToUse .use2{
+	background-image: url(img/use2.jpg);
+}
+
+#howToUse .use3{
+	background-image: url(img/use3.jpg);
+}
+
+#doggy{
+	width: 100%;
+	height: 500px;
+	background-color: #00b4c2;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+	margin-bottom: 300px;
+}
+
+.doggy{
+	background-image: url(img/doggy.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.promo2{
+	width: 50%;
+	position: absolute;
+	top: 25%;
+	color: white;
+	margin-left: 50px;
+}
+
+.promo2 span:nth-child(1){
+	display: block;
+	font-size: 2em;
+}
+
+.promo2 span:nth-child(2){
+	display: block;
+	font-size: 3.2em;
+	margin-bottom: 10px;
+}
+
+.promo2 span:nth-child(3), .promo2 span:nth-child(4){
+	font-size: 1.5em;
+	background-color: #00b4c2;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin-right: 5px;
+}
+
+.promo2 span:nth-child(5){
+	margin-top: 15px;
+	display: block;
+	font-size: 1.2em;
+}
+
+.promo2 span a{
+	width: 180px;
+	margin-top: 30px;
+	margin-left: 20px;
+	display: block;
+	font-size: 1.5em;
+	border: 2px solid #00b4c2;
+	border-radius: 5px;
+	padding: 5px 10px;
+	text-align: center;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.promo2 span a:hover{
+	background-color: #00b4c2;
+	color: white;
+}
+
+.promo2 span a:active{
+	transform: translate(3px, 4px);
+}
+
+.bubble{
+	position: relative;
+	width: 13em;
+	height: 40px;
+	padding: 30px;
+	border: 3px solid white;
+	border-radius: 30px;
+	color: white;
+	top: 30%;
+	left: 70%;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.bubble::after{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 25px 25px 25px 0;
+	border-color: transparent white;
+	display: block;
+	width: 0;
+	z-index: 1;
+	left: -25px;
+	top: 25px;
+}
+
+
+#footer{
+	width: 100%;
+	height: 220px;
+	background-color:#00b4c2;
+	position: fixed;
+	bottom: 0px;
+	padding: 40px;
+	z-index: -3;	
+}
+
+#footer_containt{
+	padding-top: 50px;
+	max-width: 90%;
+	display: flex;
+	position: relative;
+}
+
+#footer_containt .logo, #footer_containt .findUs ,#footer_containt .fb-page{
+	width: 30%;
+	height: 200px;	
+	margin-right: 3%;
+	font-size: .9em;
+	line-height: 1.5em;
+	color: white;
+}
+
+
+#footer_containt .logo{
+	background-image: url(img/logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#footer_containt .findUs{
+	width: 20%;	
+}
+
+#footer_containt #fb-page{
+	width: 340px;
+}
+
+#footer_containt  #fb-page .fb-page{
+	width: 100%;
+}
+

@@ -1,0 +1,269 @@
+/*Media Query*/
+
+@media (max-width: 768px) {
+
+	.text1{
+		font-size: 1em;
+	}
+
+
+	#good{
+		height: 500px;
+	}
+
+	#earProblem {
+		height: 200px;
+		margin-left: -10px;
+		margin-top: -50px;
+	}
+
+	#earProblem .ear1, 	#earProblem .ear2, 	#earProblem .ear3, 	#earProblem .ear4{
+		width: 22%;
+	}
+
+	#doggy .doggy .promo2 span:nth-child(1){
+		margin-top: 50px;
+		font-size: 1.3em;		
+	}
+	#doggy .doggy .promo2 span:nth-child(2){
+		font-size: 2em;
+	}
+	#doggy .doggy .promo2 span:nth-child(3){
+		font-size: 1em;		
+	}
+	#doggy .doggy .promo2 span:nth-child(4){
+		font-size: 1em;		
+	}
+	#doggy .doggy .promo2 span:nth-child(5){
+		font-size: 1em;	
+	}
+	#doggy .doggy .promo2 span:nth-child(6){
+		margin-left: 0;
+		width: 150px;
+	}
+
+	#doggy .bubble{
+		width: 13em;
+		height: 40px;
+		padding: 30px;
+		top: 40%;
+		left: 65%;
+		font-size: 1em;
+	}	
+
+	#footer{
+		height: 400px;
+		padding: 20px;
+
+	}
+
+	#footer_containt{
+		max-width: 95%;
+		padding-top: 200px;
+	}
+
+	#footer_containt .logo{
+		width: 18%;
+		margin-right: 1%;
+	}
+
+	#footer_containt .findUs{
+		width: 30%;
+		margin-right: 1%;		
+	}
+
+}
+
+
+@media (max-width: 650px) {
+
+	hr{
+		width: 80%;
+		margin: 2em auto 1em auto;
+	}
+
+	#logo{
+		background-size: 80%;
+	}
+
+	#dog{
+		display: none;
+	}
+
+	#name.sticky{
+		padding: 20px 0 20px 0;
+	}
+
+	.title{
+		margin-top: 50px;
+	}
+
+	.title .br{
+		display: block;	
+		font-size: 0.6em;
+	}
+
+	.text1{
+		width: 100%;
+	}
+
+	.text1 span{
+		display: inline-block;
+	}
+
+	#product{
+		width: 340px;
+		height: 340px;
+		margin-left: -170px;
+		margin-bottom: 100px;
+	}
+
+	.title2{
+		font-size: 1.4em;
+	}
+
+	#earProblem{
+		margin-top: 40px;
+		text-align: center;	
+		height: 900px;
+	}
+
+	#earProblem figure{
+		display: block;
+	}
+
+	#earProblem .ear1, #earProblem .ear2, #earProblem .ear3, #earProblem .ear4
+	{
+		background-position: center;
+		width: 80%;
+		height: 200px;
+		margin-bottom: 2%;
+		margin-left: 30px;
+	}
+
+	#good{
+		background-size: 100%;
+		background-position: center;
+		overflow: none;
+		width: 100%;
+		height: 250px;
+	}
+
+	.br2{
+		display: block;
+	}
+
+	#howToUse{
+		width: 100%;
+		height: 900px;
+	}
+
+	#howToUse .use1, #howToUse .use2, #howToUse .use3{
+		background-position: top center;
+		width: 80%;
+		height: 260px;
+		display: flex;
+		justify-content: top center;
+		align-items: top  center;
+		margin: auto;
+		margin-bottom: 30px;
+
+	}
+	
+	#howToUse .use1 figcaption, #howToUse .use2 figcaption, #howToUse .use3 figcaption{
+		top: 0px;
+		width: 80%;
+		height: 280px;
+	}
+	#howToUse .use2 figcaption{
+		top: 300px;
+	}
+	
+	#howToUse .use3 figcaption{
+		top: 600px;	
+	}
+
+
+	#doggy{
+		margin-bottom: 350px;		
+	}
+
+	.doggy{
+		background-size: 200%;
+
+	}
+
+
+	#doggy .bubble{
+		width: 13em;
+		padding: 20px;
+		top: 10%;
+		left: 10%;
+		border-radius: 1em;
+	}
+
+	.bubble::after{
+		border-width: 15px 0px 15px 15px;
+		left: 250px;
+		top: 25px;
+	}	
+
+	#footer{
+		height: 420px;
+		padding: 10px;
+
+	}
+
+	#footer_containt{
+		width: 100%;
+		padding-top: 100px;
+		display: inline-block;
+	}
+
+	#footer_containt .logo{
+		display: none;
+	}
+
+	#footer_containt .findUs{
+		padding-top: 40px;
+		text-align: center;
+		width: 100%;
+		height: 100px;
+	}
+
+	#fb-page{
+		margin: auto;
+
+	}
+
+	#footer_containt .fb-page{
+		margin: auto;
+		width: 95%;
+	}
+
+}
+
+
+@media (max-width: 400px) {
+
+	#howToUse .use1 figcaption, #howToUse .use2 figcaption, #howToUse .use3 figcaption{
+		top: 0px;
+		width: 80%;
+		height: 240px;
+	}
+	#howToUse .use2 figcaption{
+		top: 300px;
+	}
+	
+	#howToUse .use3 figcaption{
+		top: 600px;	
+	}
+
+}
+
+
+
+
+
+
+
